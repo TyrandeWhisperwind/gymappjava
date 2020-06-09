@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <center>
+      <TableView prefHeight="215.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <BorderPane prefHeight="100.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <left>
+            <Button mnemonicParsing="false" onAction="#load_gestion" prefHeight="100.0" prefWidth="200.0" text="Gestion paramétres" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <Button mnemonicParsing="false" onAction="#load_val" prefHeight="100.0" prefWidth="200.0" text="Validation et payement" BorderPane.alignment="CENTER" />
+         </center>
+         <right>
+            <Button mnemonicParsing="false" onAction="#load" prefHeight="100.0" prefWidth="200.0" text="Gestion adhérent" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </bottom>
+   <top>
+      <BorderPane prefHeight="25.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <left>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Button" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Button" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <Label text="Label" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </top>
+</BorderPane>
